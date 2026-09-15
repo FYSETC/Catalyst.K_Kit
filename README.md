@@ -45,6 +45,10 @@ The board integrates a TMC2209 stepper motor driver, an ADXL345 3‑axis acceler
 - Suitable for mid‑ to high‑end FDM 3D printers that require integrated TMC2209, ADXL345, BL‑Touch, and multiple fan/temperature interfaces, both for upgrading existing machines and for new printer designs.
 - Applicable in multi‑toolhead, multi‑nozzle, or remote‑extrusion setups as a distributed toolboard node, connected to the Klipper host system via CAN or USB /RS‑232 to build flexible multi‑MCU motion control architectures.
 
+# Pin Out
+
+![alt text](./image/CATALYSTK_PINOUT.png)
+
 # Communication Methods
 - USB
 - CAN
