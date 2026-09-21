@@ -1,0 +1,5 @@
+ACTION=="add|change", SUBSYSTEM=="input", KERNEL=="event*", \
+  ATTRS{name}=="Cadwell Laboratories, Inc. TouchScreen", \
+  ENV{ID_INPUT}="1", \
+  ENV{ID_INPUT_MOUSE}="1"
+

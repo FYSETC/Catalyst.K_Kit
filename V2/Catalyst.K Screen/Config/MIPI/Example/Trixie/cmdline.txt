@@ -1,0 +1,2 @@
+console=serial0,115200 console=tty1 root=PARTUUID=4736d268-02 rootfstype=ext4 fsck.repair=yes rootwait ds=nocloud;i=rpi-imager-1784022639882 cfg80211.ieee80211_regdom=CN video=HDMI-A-1:480x800@60 fbcon=rotate:1
+

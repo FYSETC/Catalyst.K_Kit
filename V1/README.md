@@ -1,5 +1,5 @@
 # Catalyst.K
-![alt text](./V1/image/image-1.png)
+![alt text](./image/image-1.png)
 # Introduction
 This high‑performance 3D printer mainboard is built around an STM32H723 32‑bit MCU and comes in a 138 mm × 98 mm form factor. Designed for modern open‑source firmware such as Klipper, it connects to external SBCs like Raspberry Pi 3B+/4B/5B via USB to form a powerful “MCU + SBC” architecture, enabling high‑speed printing, multi‑axis motion control, and advanced feature expansion.
 
@@ -21,7 +21,7 @@ This high‑performance 3D printer mainboard is built around an STM32H723 32‑b
 - Can be used in other motion‑control equipment requiring up to five stepper axes, 24 V / 48 V mixed supplies, and rich communication interfaces, such as small CNC machines, automation rigs, and laboratory devices.
 
 # Catalyst.K ToolHead
-![alt text](./V1/image/image-2.png)
+![alt text](./image/image-2.png)
 # Introduction
 
 CATALYST_NOZZLE is a compact Klipper toolboard with a footprint of only 47 mm × 44 mm, designed to be mounted close to the printhead or extruder. It is powered by an STM32G431CBT6 32‑bit MCU and supports multiple communication modes, including USB and CAN / RS‑232, which can be switched via an on‑board physical button.
@@ -47,7 +47,7 @@ The board integrates a TMC2209 stepper motor driver, an ADXL345 3‑axis acceler
 
 # Pin Out
 
-![alt text](./V1/image/CATALYSTK_PINOUT.png)
+![alt text](./image/CATALYSTK_PINOUT.png)
 
 # Communication Methods
 - USB
@@ -55,7 +55,7 @@ The board integrates a TMC2209 stepper motor driver, an ADXL345 3‑axis acceler
 - RS-232
 
 See [Wiki](https://wiki.fysetc.com/docs/CATALYST-K) for specific wiring.
-![alt text](./V1/image/image.png)
+![alt text](./image/image.png)
 
 # Reference
 [Catalyst.K](https://wiki.fysetc.com/docs/CATALYST-K)
