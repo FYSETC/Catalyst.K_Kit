@@ -6,27 +6,27 @@ Catalyst.K is the main circuit board installed at the bottom of the machine. For
 ## Firmware Configuration
 ### General Klipper
 #### Serial and USB
-<p align="center">
+<p align="left">
   <img src="./Image/k1_serialusb.png" width="560" height="140">
 </p>
 
 #### Can
-<p align="center">
-  <img src="./Image/k1_Can.png" width="560" height="140">
+<p align="left">
+  <img src="./Image/k1_can.png" width="560" height="140">
 </p>
 
 ### K1_Series_Klipper
 #### Serial and USB
-<p align="center">
+<p align="left">
   <img src="./Image/k1_creality_serialusb1.png" width="560" height="160">
 </p>
 
-<p align="center">
+<p align="left">
   <img src="./Image/k1_creality_serialusb2.png" width="560" height="120">
 </p>
 
 #### Can
-<p align="center">
+<p align="left">
   <img src="./Image/k1_creality_can.png" width="560" height="180">
 </p>
 

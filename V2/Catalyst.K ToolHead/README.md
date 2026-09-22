@@ -18,39 +18,39 @@ A professional USB cable is included in the kit; connecting the Raspberry Pi to 
 ## Firmware Configuration
 ### General Klipper
 #### Serial
-<p align="center">
+<p align="left">
   <img src="./Image/k1_klipper_serial.png" width="560" height="120">
 </p>
 
 #### USB
-<p align="center">
+<p align="left">
   <img src="./Image/Usb.png" width="560" height="120">
 </p>
 
 #### Can
-<p align="center">
+<p align="left">
   <img src="./Image/Can.png" width="560" height="120">
 </p>
 
 
 ### K1_Series_Klipper
 #### Serial
-<p align="center">
+<p align="left">
   <img src="./Image/k1_serial1.png" width="560" height="160">
 </p>
 
-<p align="center">
+<p align="left">
   <img src="./Image/k1_serial2.png" width="560" height="120">
 </p>
 
 
 #### USB
-<p align="center">
+<p align="left">
   <img src="./Image/k1_usb.png" width="560" height="160">
 </p>
 
 #### Can
-<p align="center">
+<p align="left">
   <img src="./Image/k1_can.png" width="560" height="160">
 </p>
 
