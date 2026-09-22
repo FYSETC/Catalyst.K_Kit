@@ -1,4 +1,5 @@
 # Catalyst.K
+![alt text](../Image/Catalyst.K.png)
 # Introduction
 Catalyst.K is the main circuit board installed at the bottom of the machine. For connection instructions, please refer to the kit connection diagram.
 

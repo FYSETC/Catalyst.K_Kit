@@ -1,4 +1,5 @@
 # Catalyst.K Leveling
+![alt text](../Image/Catalyst.KLeveling.png)
 ## Introduction
 Unlike Creality's official leveling MCU, this leveling MCU is used for the official open-source Klipper. Please consult the guide at https://www.klipper3d.org/Load_Cell.html and complete the calibration process before use.
 

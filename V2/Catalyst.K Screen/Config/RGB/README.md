@@ -1,4 +1,5 @@
 # Catalyst.K ScreenRGB Raspberry Config
+![alt text](../../Image/Catalyst.KRGB.png)
 ## Display Config
 ### cmdline.txt
 cmdline.txt is typically located in the /boot/firmware directory or the /boot directory. Add the following command to the command line.

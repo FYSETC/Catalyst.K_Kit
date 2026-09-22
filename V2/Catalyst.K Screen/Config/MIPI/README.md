@@ -1,4 +1,5 @@
 # Catalyst.K ScreenMIPI Raspberry Config
+![alt text](../../Image/Catalyst.KMIPI.png)
 ## Kernel Version
 Please execute the following command to check the Raspberry Pi firmware version.
 ```

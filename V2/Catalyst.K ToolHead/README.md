@@ -1,4 +1,5 @@
 # Catalyst.K Toolhead
+![alt text](./Image/Catalyst.KToolhead.png)
 # Introduction
 The Catalyst.K Toolhead is a circuit board for extruders. 
 
