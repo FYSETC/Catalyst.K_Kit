@@ -1,6 +1,5 @@
 # Catalyst.K Screen
-![alt text](./image/image-1.png)
-# Introduction
+## Introduction
 Referring to the Catalyst.K connection diagram, the Catalyst.K Screen is an adapter board positioned between the Raspberry Pi's HDMI port and the original Creality RGB screen.
 
 Once the connections are completed according to the wiring diagram and the Raspberry Pi is configured following the instructions in the "Config" directory, the original display will function correctly.

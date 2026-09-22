@@ -39,8 +39,8 @@ sudo reboot
 ## KlipperScreen.conf
 The following configuration will turn off the display, but it will not turn off the screen backlight. Changing the configuration to something else may cause other display issues.
 ```
-#~# screen_blanking = 60
-#~# screen_blanking_printing = 60
+#~# screen_blanking = 300
+#~# screen_blanking_printing = 300
 #~# use_dpms = False
 ```
 

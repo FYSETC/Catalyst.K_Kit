@@ -1,9 +1,9 @@
 # Catalyst.K
-![alt text](./Image/image-1.png)
-# Introduction
+![alt text](./Image/Catalyst.K.png)
+## Introduction
 This high‑performance 3D printer mainboard is built around an STM32H723 32‑bit MCU and comes in a 138 mm × 98 mm form factor. Designed for modern open‑source firmware such as Klipper, it connects to external SBCs like Raspberry Pi 3B+/4B/5B via USB to form a powerful “MCU + SBC” architecture, enabling high‑speed printing, multi‑axis motion control, and advanced feature expansion.
 
-# Features
+## Features
 - High‑performance MCU based on STM32H723 for demanding 3D printing workloads such as high‑speed interpolation and synchronized multi‑axis motion control.
 - Native support for Klipper‑style setups via USB connection to Raspberry Pi 3B+/4B/5B or any Klipper‑compatible host.
 - Five STEPSTICK sockets supporting flexible driver choices such as TMC5160 and TMC2209 to balance torque, smoothness, and silent operation.
@@ -15,19 +15,19 @@ This high‑performance 3D printer mainboard is built around an STM32H723 32‑b
 
 -------
 
-# Applications
+## Applications
 - Ideal as the main controller for mid‑ to high‑end FDM 3D printers, especially Klipper‑based high‑speed and multi‑axis systems.
 - Suitable for upgrading existing printers from legacy 8‑bit or low‑performance boards to an STM32H7 + Klipper platform for higher speed and greater flexibility.
 - Can be used in other motion‑control equipment requiring up to five stepper axes, 24 V / 48 V mixed supplies, and rich communication interfaces, such as small CNC machines, automation rigs, and laboratory devices.
 
 # Catalyst.K ToolHead
-![alt text](./Image/image-2.png)
-# Introduction
+![alt text](./Image/Catalyst.KToolhead.png)
+## Introduction
 
-CATALYST_NOZZLE is a compact Klipper toolboard with a footprint of only 47 mm × 44 mm, designed to be mounted close to the printhead or extruder. It is powered by an STM32G431CBT6 32‑bit MCU and supports multiple communication modes, including USB and CAN / RS‑232, which can be switched via an on‑board physical button.
+Catalyst.K ToolHead is a compact Klipper toolboard with a footprint of only 47 mm × 44 mm, designed to be mounted close to the printhead or extruder. It is powered by an STM32G431CBT6 32‑bit MCU and supports multiple communication modes, including USB and CAN / RS‑232, which can be switched via an on‑board physical button.
 The board integrates a TMC2209 stepper motor driver, an ADXL345 3‑axis accelerometer, multiple fan and temperature inputs, as well as BL‑Touch and hotend heater control. This greatly simplifies toolhead wiring, reduces cable bundle weight on moving parts, and improves overall reliability and serviceability of the printer.
 
-# Features 
+## Features 
 - Compact toolboard design: 47 mm × 44 mm, mounted directly near the printhead or extruder to greatly simplify wiring.
 - STM32G431 MCU: 32‑bit high‑performance controller optimized for Klipper multi‑MCU setups.
 - Multiple communication modes: Supports USB, CAN, and RS‑232, switchable via on‑board button.
@@ -40,14 +40,32 @@ The board integrates a TMC2209 stepper motor driver, an ADXL345 3‑axis acceler
 - Easy debugging: On‑board BOOT0 and RESET buttons for quick flashing and debugging.
 
 
-# Applications 
+## Applications 
 - Used as a Klipper toolhead board for extruder/printhead control, providing local motor drive, temperature control, fan control, and acceleration measurement on the toolhead to greatly simplify the printer’s wiring.
 - Suitable for mid‑ to high‑end FDM 3D printers that require integrated TMC2209, ADXL345, BL‑Touch, and multiple fan/temperature interfaces, both for upgrading existing machines and for new printer designs.
 - Applicable in multi‑toolhead, multi‑nozzle, or remote‑extrusion setups as a distributed toolboard node, connected to the Klipper host system via CAN or USB /RS‑232 to build flexible multi‑MCU motion control architectures.
 
-# Pin Out
+# Catalyst.K Leveling
+![alt text](./Image/Catalyst.KLeveling.png)
 
-![alt text](../ImageCATALYSTK_PINOUT.png)
+## Introduction
+
+## Features 
+
+## Applications 
+
+# Catalyst.K Screen
+## Catalyst.K Screen RGB
+![alt text](./Image/Catalyst.KRGB.png)
+
+## Catalyst.K Screen MIPI
+![alt text](./Image/Catalyst.KMIPI.png)
+
+## Introduction
+
+## Features 
+
+## Applications 
 
 # Communication Methods
 - USB
