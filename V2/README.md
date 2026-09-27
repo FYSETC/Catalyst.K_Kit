@@ -77,10 +77,17 @@ Catalyst.K Leveling is a high-precision leveling control solution designed speci
 ![alt text](./Image/Catalyst.KMIPI.png)
 
 ## Introduction
+Catalyst.K is a video signal conversion board compatible with the original display screens of the Creality K1 series printers. It also supports touchscreen input.
 
 ## Features 
--
+- Video driver Controller: LT8619C/LT6911C
+- Touch driver Controller: CH571F/CH32X035G8U6
+- Communication Interface: Standard 4-wire USB interface (touch) and HDMI FPC ribbon cable
+- Applications: original display screens of the Creality K1 series printers be used as a display for the Raspberry Pi.
+
 ## Applications 
+- HDMI Signal Conversion: Powered by LT8619C/LT6911C chips to convert HDMI to RGB/MIPI video signals.
+- Touch Control: Equipped with CH571F/CH32X035G8U6 chips to drive touchscreen interfaces.
 
 # Communication Methods
 - USB

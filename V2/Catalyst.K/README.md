@@ -37,3 +37,10 @@ Use the following commands to compile and upload the firmware.
 cd ~/klipper
 make flash FLASH_DEVICE=0483:df11
 ```
+
+# LED Indications
+<p align="left">
+  <img src="./Image/led.png" width="760" height="460">
+</p>
+
+When in DFU mode, or after flashing firmware for USB/Serial mode, the green led turns on; after flashing firmware for CAN mode, the red led turns on.

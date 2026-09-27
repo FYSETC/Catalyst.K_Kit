@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+mnt="/mnt/SD"
+
+mkdir -p "$mnt"
+
+mounted_src="$(findmnt -rn -o SOURCE "$mnt" 2>/dev/null || true)"
+target=""
+
+# 优先找 /dev/sda1、/dev/sdb1 这类分区
+for dev in /dev/sd*[0-9]; do
+  [ -b "$dev" ] || continue
+  if blkid -o value -s TYPE "$dev" >/dev/null 2>&1; then
+    target="$dev"
+    break
+  fi
+done
+
+# 兼容文件系统直接建在 /dev/sda 这类整盘上的情况
+if [ -z "$target" ]; then
+  for dev in /dev/sd?; do
+    [ -b "$dev" ] || continue
+    if blkid -o value -s TYPE "$dev" >/dev/null 2>&1; then
+      target="$dev"
+      break
+    fi
+  done
+fi
+
+if [ -n "$target" ]; then
+  if [ "$mounted_src" = "$target" ]; then
+    exit 0
+  fi
+
+  if [ -n "$mounted_src" ]; then
+    umount "$mnt" || umount -l "$mnt" || true
+  fi
+
+  fstype="$(blkid -o value -s TYPE "$target" 2>/dev/null || true)"
+  [ -n "$fstype" ] || exit 0
+
+  opts="rw,nosuid,nodev,noatime"
+
+  case "$fstype" in
+    vfat|exfat|ntfs)
+      opts="$opts,uid=1000,gid=1000,umask=022"
+      ;;
+  esac
+
+  mount -t "$fstype" -o "$opts" "$target" "$mnt"
+  exit 0
+fi
+
+# 没有任何 /dev/sd* 文件系统时，取消挂载
+if [ -n "$mounted_src" ]; then
+  umount "$mnt" || umount -l "$mnt" || true
+fi

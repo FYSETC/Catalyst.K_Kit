@@ -1,0 +1,6 @@
+[Unit]
+Description=Watch and mount sd* USB storage to /mnt/usb_flash
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/usb-flash-watch
