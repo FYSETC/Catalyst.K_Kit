@@ -90,12 +90,12 @@ Catalyst.K is a video signal conversion board compatible with the original displ
 - Touch Control: Equipped with CH571F/CH32X035G8U6 chips to drive touchscreen interfaces.
 
 # Communication Methods
-- USB
+- USB(Recommend)
+![alt text](./Image/connect_usb.png)
+- RS-232(Recommend)
+![alt text](./Image/connect_232.png)
 - CAN
-- RS-232
-
-See [Wiki](https://wiki.fysetc.com/docs/CATALYST-K) for specific wiring.
-![alt text](./Image/image.png)
+![alt text](./Image/connect_can.png)
 
 # Reference
 [Catalyst.K](https://wiki.fysetc.com/docs/CATALYST-K)
