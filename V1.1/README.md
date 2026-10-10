@@ -102,6 +102,6 @@ For other wiring instructions, please refer to the GitHub repository:
 - Display Wiring: https://github.com/FYSETC/Catalyst.K_Kit/tree/main/V1.1/Catalyst.K%20Screen/Wiring
 
 # Reference
-[Catalyst.K](https://wiki.fysetc.com/docs/CATALYST-K)
+[Catalyst.K](https://wiki.fysetc.com/docs/JRDhzc53?preview=1)
 
-[Catalyst.K ToolHead](https://wiki.fysetc.com/docs/Catalyst-K-ToolHead)
+[Catalyst.K ToolHead](https://wiki.fysetc.com/docs/kpMZz8lV?preview=1)
