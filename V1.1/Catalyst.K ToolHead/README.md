@@ -23,6 +23,8 @@ A professional USB cable is included in the kit; connecting the Raspberry Pi to 
   <img src="./Image/k1_klipper_serial.png" width="560" height="120">
 </p>
 
+This is the factory default version.
+
 #### USB
 <p align="left">
   <img src="./Image/Usb.png" width="560" height="120">

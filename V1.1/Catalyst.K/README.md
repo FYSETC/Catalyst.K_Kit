@@ -11,6 +11,8 @@ Catalyst.K is the main circuit board installed at the bottom of the machine. For
   <img src="./Image/k1_serialusb.png" width="560" height="140">
 </p>
 
+This is the factory default version.
+
 #### Can
 <p align="left">
   <img src="./Image/k1_can.png" width="560" height="140">

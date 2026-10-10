@@ -97,6 +97,10 @@ Catalyst.K is a video signal conversion board compatible with the original displ
 - CAN
 ![alt text](./Image/connect_can.png)
 
+For other wiring instructions, please refer to the GitHub repository:
+- Raspberry Pi Power Wiring: https://github.com/FYSETC/Catalyst.K_Kit/tree/main/V1.1/Raspberry%20Pi/Wiring
+- Display Wiring: https://github.com/FYSETC/Catalyst.K_Kit/tree/main/V1.1/Catalyst.K%20Screen/Wiring
+
 # Reference
 [Catalyst.K](https://wiki.fysetc.com/docs/CATALYST-K)
 
