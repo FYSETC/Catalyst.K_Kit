@@ -1,0 +1,14 @@
+ACTION=="add|change", SUBSYSTEM=="input", KERNEL=="event*", \
+  ATTRS{name}=="Cadwell Laboratories, Inc. TouchScreen", \
+  ENV{ID_INPUT}="1", \
+  ENV{ID_INPUT_TOUCHSCREEN}="1", \
+  ENV{ID_INPUT_MOUSE}="0", \
+  ENV{LIBINPUT_CALIBRATION_MATRIX}="0 1 0 -1 0 1"
+
+ACTION=="add|change", SUBSYSTEM=="input", KERNEL=="event*", \
+  ATTRS{idVendor}=="27c0", ATTRS{idProduct}=="0859", \
+  ENV{ID_INPUT}="1", \
+  ENV{ID_INPUT_TOUCHSCREEN}="1", \
+  ENV{ID_INPUT_MOUSE}="0", \
+  ENV{LIBINPUT_CALIBRATION_MATRIX}="0 1 0 -1 0 1"
+

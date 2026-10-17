@@ -1,9 +1,46 @@
-# Catalyst.K
-![alt text](./Image/Catalyst.K.png)
-## Introduction
-This high‑performance 3D printer mainboard is built around an STM32H723 32‑bit MCU and comes in a 138 mm × 98 mm form factor. Designed for modern open‑source firmware such as Klipper, it connects to external SBCs like Raspberry Pi 3B+/4B/5B via USB to form a powerful “MCU + SBC” architecture, enabling high‑speed printing, multi‑axis motion control, and advanced feature expansion.
+# Catalyst.K_Kit
+different kits are provided, depending on the LCD. It is very important to confirm the type of LCD on your machine before making a purchase.
+## Bill of Materials
+### RGB LCD kit (tmc2209)
+| Index | Sort                | Component    | Qty   |
+| ----- | ------------------- | ------------ | ----- |
+| 1     | Catalyst.K-Mainboard|              | 1 SET |
+| 2     | Catalyst.K-rLCD     |              | 1 SET |
+| 3     | Catalyst.K-Tool     |              | 1 SET |
+| 4     | Catalyst.K-Level    |              | 1 SET |
 
-## Features
+### RGB LCD kit (tmc5160)
+| Index | Sort                | Component    | Qty   |
+| ----- | ------------------- | ------------ | ----- |
+| 1     | Catalyst.K-Mainboard|              | 1 SET |
+| 2     | Catalyst.K-rLCD     |              | 1 SET |
+| 3     | Catalyst.K-Tool     |              | 1 SET |
+| 4     | Catalyst.K-Level    |              | 1 SET |
+
+### MIPI LCD kit (tmc2209)
+| Index | Sort                | Component    | Qty   |
+| ----- | ------------------- | ------------ | ----- |
+| 1     | Catalyst.K-Mainboard|              | 1 SET |
+| 2     | Catalyst.K-mLCD     |              | 1 SET |
+| 3     | Catalyst.K-Tool     |              | 1 SET |
+| 4     | Catalyst.K-Level    |              | 1 SET |
+
+### MIPI LCD kit (tmc5160)
+| Index | Sort                | Component    | Qty   |
+| ----- | ------------------- | ------------ | ----- |
+| 1     | Catalyst.K-Mainboard|              | 1 SET |
+| 2     | Catalyst.K-mLCD     |              | 1 SET |
+| 3     | Catalyst.K-Tool     |              | 1 SET |
+| 4     | Catalyst.K-Level    |              | 1 SET |
+
+## Important Note
+- The kit contents do not include the tool board connection cable, the Cartographer (probe), and the touchscreen.
+- for tool board connection cable and touchscreen, you must use the original accessories provided with the device.
+- Individual components from this kit cannot be used as direct replacements for official parts; the entire set must be replaced.
+
+## Introduction
+### Catalyst.K-Mainboard
+![alt text](./Image/Catalyst.K.png)
 - High‑performance MCU based on STM32H723 for demanding 3D printing workloads such as high‑speed interpolation and synchronized multi‑axis motion control.
 - Native support for Klipper‑style setups via USB connection to Raspberry Pi 3B+/4B/5B or any Klipper‑compatible host.
 - Five STEPSTICK sockets supporting flexible driver choices such as TMC5160 and TMC2209 to balance torque, smoothness, and silent operation.
@@ -13,21 +50,20 @@ This high‑performance 3D printer mainboard is built around an STM32H723 32‑b
 - Rich connectivity including 3× USB, 2× RS‑232, 1× RS‑485, and 1× high‑speed CAN interface for advanced expansions and distributed motion systems.
 - Nine general‑purpose IOs and five fan outputs, with four voltage‑selectable (5V/12V/24V), plus an RGB header for status indication and lighting effects.
 
--------
+### Catalyst.K-rLCD
+![alt text](./Image/Catalyst.KRGB.png)
+- Video driver Controller: LT8619C
+- Touch driver Controller: CH571F
+- Communication Interface: Standard 4-wire USB interface (touch) and HDMI FPC ribbon cable
 
-## Applications
-- Ideal as the main controller for mid‑ to high‑end FDM 3D printers, especially Klipper‑based high‑speed and multi‑axis systems.
-- Suitable for upgrading existing printers from legacy 8‑bit or low‑performance boards to an STM32H7 + Klipper platform for higher speed and greater flexibility.
-- Can be used in other motion‑control equipment requiring up to five stepper axes, 24 V / 48 V mixed supplies, and rich communication interfaces, such as small CNC machines, automation rigs, and laboratory devices.
+### Catalyst.K-mLCD
+![alt text](./Image/Catalyst.KMIPI.png)
+- Video driver Controller: LT6911C
+- Touch driver Controller: CH32X035G8U6
+- Communication Interface: Standard 4-wire USB interface (touch) and HDMI FPC ribbon cable
 
-# Catalyst.K ToolHead
+### Catalyst.K-Tool
 ![alt text](./Image/Catalyst.KToolhead.png)
-## Introduction
-
-Catalyst.K ToolHead is a compact Klipper toolboard with a footprint of only 47 mm × 44 mm, designed to be mounted close to the printhead or extruder. It is powered by an STM32G431CBT6 32‑bit MCU and supports multiple communication modes, including USB and CAN / RS‑232, which can be switched via an on‑board physical button.
-The board integrates a TMC2209 stepper motor driver, an ADXL345 3‑axis accelerometer, multiple fan and temperature inputs, as well as BL‑Touch and hotend heater control. This greatly simplifies toolhead wiring, reduces cable bundle weight on moving parts, and improves overall reliability and serviceability of the printer.
-
-## Features 
 - Compact toolboard design: 47 mm × 44 mm, mounted directly near the printhead or extruder to greatly simplify wiring.
 - STM32G431 MCU: 32‑bit high‑performance controller optimized for Klipper multi‑MCU setups.
 - Multiple communication modes: Supports USB, CAN, and RS‑232, switchable via on‑board button.
@@ -39,55 +75,13 @@ The board integrates a TMC2209 stepper motor driver, an ADXL345 3‑axis acceler
 - Complete sensing and actuator interfaces: 3 temperature inputs, 1 BL‑Touch connector, 1 hotend heater output up to 2.5A.
 - Easy debugging: On‑board BOOT0 and RESET buttons for quick flashing and debugging.
 
-
-## Applications 
-- Used as a Klipper toolhead board for extruder/printhead control, providing local motor drive, temperature control, fan control, and acceleration measurement on the toolhead to greatly simplify the printer’s wiring.
-- Suitable for mid‑ to high‑end FDM 3D printers that require integrated TMC2209, ADXL345, BL‑Touch, and multiple fan/temperature interfaces, both for upgrading existing machines and for new printer designs.
-- Applicable in multi‑toolhead, multi‑nozzle, or remote‑extrusion setups as a distributed toolboard node, connected to the Klipper host system via CAN or USB /RS‑232 to build flexible multi‑MCU motion control architectures.
-
-# Catalyst.K Leveling
+### Catalyst.K-Level
 ![alt text](./Image/Catalyst.KLeveling.png)
-
 ## Introduction
-Catalyst.K Leveling is a high-precision leveling control solution designed specifically for 3D printers. Integrating high-precision load cell technology and supporting the Klipper firmware ecosystem, the board achieves superior automatic leveling performance through real-time pressure monitoring, thereby enhancing the quality and stability of the first printed layer.
-
-## Features 
 - Main Controller: STM32F042F6P6 (High-performance ARM Cortex-M0 32-bit microcontroller)
-
 - Weighing/Data Acquisition Chip: HX711 (24-bit high-precision A/D converter with built-in voltage regulator)
-
 - Communication Interface: RS-232 standard serial communication
-
 - System Compatibility: Full support for Klipper open-source firmware
-
-- Applications: Automatic bed/nozzle leveling for 3D printers, pressure sensing
-## Applications 
-- High-Precision Sensing: Equipped with the dedicated HX711 ADC chip, ensuring highly accurate pressure sensing with minimal drift.
-
-- Native Klipper Support: Seamlessly integrates with Klipper systems, utilizing high-speed RS-232 data transmission to meet the demands of high-precision leveling calculations.
-
-- Compact Design: Features a space-efficient layout, making it easy to integrate into various printer configurations.
-
-- Industrial-Grade Control: Powered by a stable STM32 core, ensuring rapid response for leveling operations.
-# Catalyst.K Screen
-## Catalyst.K Screen RGB
-![alt text](./Image/Catalyst.KRGB.png)
-
-## Catalyst.K Screen MIPI
-![alt text](./Image/Catalyst.KMIPI.png)
-
-## Introduction
-Catalyst.K is a video signal conversion board compatible with the original display screens of the Creality K1 series printers. It also supports touchscreen input.
-
-## Features 
-- Video driver Controller: LT8619C/LT6911C
-- Touch driver Controller: CH571F/CH32X035G8U6
-- Communication Interface: Standard 4-wire USB interface (touch) and HDMI FPC ribbon cable
-- Applications: original display screens of the Creality K1 series printers be used as a display for the Raspberry Pi.
-
-## Applications 
-- HDMI Signal Conversion: Powered by LT8619C/LT6911C chips to convert HDMI to RGB/MIPI video signals.
-- Touch Control: Equipped with CH571F/CH32X035G8U6 chips to drive touchscreen interfaces.
 
 # Communication Methods
 - USB(Recommend)
@@ -97,7 +91,7 @@ Catalyst.K is a video signal conversion board compatible with the original displ
 - CAN
 ![alt text](./Image/connect_can.png)
 
-For other wiring instructions, please refer to the GitHub repository:
+For detailed wiring instructions, please refer to the GitHub repository:
 - Raspberry Pi Power Wiring: https://github.com/FYSETC/Catalyst.K_Kit/tree/main/V1.1/Raspberry%20Pi/Wiring
 - Display Wiring: https://github.com/FYSETC/Catalyst.K_Kit/tree/main/V1.1/Catalyst.K%20Screen/Wiring
 
@@ -105,3 +99,9 @@ For other wiring instructions, please refer to the GitHub repository:
 [Catalyst.K](https://wiki.fysetc.com/docs/JRDhzc53?preview=1)
 
 [Catalyst.K ToolHead](https://wiki.fysetc.com/docs/kpMZz8lV?preview=1)
+
+# Product Link
+
+
+
+
