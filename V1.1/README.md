@@ -4,34 +4,34 @@ different kits are provided, depending on the LCD. It is very important to confi
 ### RGB LCD kit (tmc2209)
 | Index | Sort                | Component    | Qty   |
 | ----- | ------------------- | ------------ | ----- |
-| 1     | Catalyst.K-Mainboard|              | 1 SET |
-| 2     | Catalyst.K-rLCD     |              | 1 SET |
-| 3     | Catalyst.K-Tool     |              | 1 SET |
-| 4     | Catalyst.K-Level    |              | 1 SET |
+| 1     | Catalyst.K-Mainboard|Catalyst.K Mainboard x1(includes three TMC2209 driver modules)<br>USB 2.0 to Type-C Data Cable (Angled Connector)x1<br>2.54mm Pitch 8-Pin Colorful Teflon Cable (with Terminals at Both Ends)x1<br>2.54mm Jumper Cap x5              | 1 SET |
+| 2     | Catalyst.K-rLCD     |Catalyst.K-RGB Display Adapter Board x1<br>HDMI (standard) adapter board x1<br>HDMI (Micro) adapter board x1<br>USB 2.0 to Type-C Data Cable x1<br>0.5mm pitch 20-pin ribbon cable x1             | 1 SET |
+| 3     | Catalyst.K-Tool     |Catalyst.K-Tool Board x1<br>USB 2.0 to 2mm-pitch 4-pin terminal data cable x1<br>2.mm Jumper Cap X5<br>2mm-high PCB standoff spacers (copper) x3<br>5mm-high PCB standoff spacers (copper) x3              | 1 SET |
+| 4     | Catalyst.K-Level    |Catalyst.K Leveling Adapter Plate x1              | 1 SET |
 
 ### RGB LCD kit (tmc5160)
 | Index | Sort                | Component    | Qty   |
 | ----- | ------------------- | ------------ | ----- |
-| 1     | Catalyst.K-Mainboard|              | 1 SET |
-| 2     | Catalyst.K-rLCD     |              | 1 SET |
-| 3     | Catalyst.K-Tool     |              | 1 SET |
-| 4     | Catalyst.K-Level    |              | 1 SET |
+| 1     | Catalyst.K-Mainboard|(Includes two QHV5160 driver modules and one TMC2209 driver module)<br>USB 2.0 to Type-C Data Cable (Angled Connector)x1<br>2.54mm Pitch 8-Pin Colorful Teflon Cable (with Terminals at Both Ends)x1<br>2.54mm Jumper Cap x5              | 1 SET |
+| 2     | Catalyst.K-rLCD     |Catalyst.K-RGB Display Adapter Board x1<br>HDMI (standard) adapter board x1<br>HDMI (Micro) adapter board x1<br>USB 2.0 to Type-C Data Cable x1<br>0.5mm pitch 20-pin ribbon cable x1              | 1 SET |
+| 3     | Catalyst.K-Tool     |Catalyst.K-Tool Board x1<br>USB 2.0 to 2mm-pitch 4-pin terminal data cable x1<br>2mm Jumper Cap X5<br>2mm-high PCB standoff spacers (copper) x3<br>5mm-high PCB standoff spacers (copper) x3              | 1 SET |
+| 4     | Catalyst.K-Level    |Catalyst.K Leveling Adapter Plate x1              | 1 SET |
 
 ### MIPI LCD kit (tmc2209)
 | Index | Sort                | Component    | Qty   |
 | ----- | ------------------- | ------------ | ----- |
-| 1     | Catalyst.K-Mainboard|              | 1 SET |
+| 1     | Catalyst.K-Mainboard|Catalyst.K Mainboard x1(includes three TMC2209 driver modules)<br>USB 2.0 to Type-C Data Cable (Angled Connector)x1<br>2.54mm Pitch 8-Pin Colorful Teflon Cable (with Terminals at Both Ends)x1<br>2.54mm Jumper Cap x5              | 1 SET |
 | 2     | Catalyst.K-mLCD     |              | 1 SET |
-| 3     | Catalyst.K-Tool     |              | 1 SET |
-| 4     | Catalyst.K-Level    |              | 1 SET |
+| 3     | Catalyst.K-Tool     |Catalyst.K-Tool Board x1<br>USB 2.0 to 2mm-pitch 4-pin terminal data cable x1，2.mm Jumper Cap X5<br>2mm-high PCB standoff spacers (copper) x3, 5mm-high PCB standoff spacers (copper) x3              | 1 SET |
+| 4     | Catalyst.K-Level    |Catalyst.K Leveling Adapter Plate              | 1 SET |
 
 ### MIPI LCD kit (tmc5160)
 | Index | Sort                | Component    | Qty   |
 | ----- | ------------------- | ------------ | ----- |
-| 1     | Catalyst.K-Mainboard|              | 1 SET |
+| 1     | Catalyst.K-Mainboard|Catalyst.K-Mainboard x1(Includes two QHV5160 driver modules and one TMC2209 driver module)<br>USB 2.0 to Type-C Data Cable (Angled Connector)x1<br>2.54mm Pitch 8-Pin Colorful Teflon Cable (with Terminals at Both Ends)x1<br>2.54mm Jumper Cap x5              | 1 SET |
 | 2     | Catalyst.K-mLCD     |              | 1 SET |
-| 3     | Catalyst.K-Tool     |              | 1 SET |
-| 4     | Catalyst.K-Level    |              | 1 SET |
+| 3     | Catalyst.K-Tool     |Catalyst.K-Tool Board x1<br>USB 2.0 to 2mm-pitch 4-pin terminal data cable x1<br>2.mm Jumper Cap X5<br>2mm-high PCB standoff spacers (copper) x3<br>5mm-high PCB standoff spacers (copper) x3              | 1 SET |
+| 4     | Catalyst.K-Level    |Catalyst.K Leveling Adapter Plate              | 1 SET |
 
 ## Important Note
 - The kit contents do not include the tool board connection cable, the Cartographer (probe), and the touchscreen.
