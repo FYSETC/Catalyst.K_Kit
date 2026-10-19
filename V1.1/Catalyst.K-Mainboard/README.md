@@ -25,7 +25,7 @@ This high‑performance 3D printer mainboard is built around an STM32H723 32‑b
 # Firmware compilation and upload
 ## Firmware Configuration
 ### General Klipper
-#### Serial and USB
+#### Serial and USB(Recommend)
 <p align="left">
   <img src="./Image/k1_serialusb.png" width="560" height="140">
 </p>
@@ -41,7 +41,7 @@ This high‑performance 3D printer mainboard is built around an STM32H723 32‑b
 </p>
 
 ### K1_Series_Klipper
-#### Serial and USB
+#### Serial and USB(Recommend)
 <p align="left">
   <img src="./Image/k1_creality_serialusb1.png" width="560" height="160">
 </p>
@@ -79,6 +79,6 @@ When in DFU mode, or after flashing firmware for USB/Serial mode, the green led 
 All peripherals are installed in the same positions as on the original motherboard. With the exception of the shared serial and CAN interfaces, the pinout definitions for all other terminals are identical to those of the original motherboard.
 
 # Reference
-[Catalyst.K](https://wiki.fysetc.com/docs/JRDhzc53?preview=1)
+[Catalyst.K-Mainboard](https://wiki.fysetc.com/docs/JRDhzc53?preview=1)
 
 # Product Link

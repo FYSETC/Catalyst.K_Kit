@@ -38,6 +38,4 @@ make flash FLASH_DEVICE=0483:df11
 ## Important
 During normal operation, PA0, PA1, PA5, and PA6 should all be at a low logic level; please do not set them to a high logic level.
 
-# PinOut
-
 # Product Link

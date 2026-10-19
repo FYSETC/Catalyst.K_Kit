@@ -9,6 +9,10 @@ different kits are provided, depending on the LCD. It is very important to confi
 | 3     | Catalyst.K-Tool     |Catalyst.K-Tool Board x1<br>USB 2.0 to 2mm-pitch 4-pin terminal data cable x1<br>2.mm Jumper Cap X5<br>2mm-high PCB standoff spacers (copper) x3<br>5mm-high PCB standoff spacers (copper) x3              | 1 SET |
 | 4     | Catalyst.K-Level    |Catalyst.K Leveling Adapter Plate x1              | 1 SET |
 
+To verify whether your factory-installed screen is an RGB LCD and compatible with this kit, please refer to the detailed guide here:
+https://github.com/FYSETC/Catalyst.K_Kit/blob/main/V1.1/Catalyst.K-BOM/RGB-Kit/RGB_LCD_kit_2209.md
+
+
 ### RGB LCD kit (tmc5160)
 | Index | Sort                | Component    | Qty   |
 | ----- | ------------------- | ------------ | ----- |
@@ -24,6 +28,8 @@ different kits are provided, depending on the LCD. It is very important to confi
 | 2     | Catalyst.K-mLCD     |              | 1 SET |
 | 3     | Catalyst.K-Tool     |Catalyst.K-Tool Board x1<br>USB 2.0 to 2mm-pitch 4-pin terminal data cable x1，2.mm Jumper Cap X5<br>2mm-high PCB standoff spacers (copper) x3, 5mm-high PCB standoff spacers (copper) x3              | 1 SET |
 | 4     | Catalyst.K-Level    |Catalyst.K Leveling Adapter Plate              | 1 SET |
+
+To verify whether your factory-installed screen is an MIPI LCD and compatible with this kit, please refer to the detailed guide here: https://github.com/FYSETC/Catalyst.K_Kit/blob/main/V1.1/Catalyst.K-BOM/MIPI-Kit/MIPI_LCD_kit_2209.md
 
 ### MIPI LCD kit (tmc5160)
 | Index | Sort                | Component    | Qty   |
@@ -84,21 +90,22 @@ different kits are provided, depending on the LCD. It is very important to confi
 - System Compatibility: Full support for Klipper open-source firmware
 
 # Communication Methods
-- USB(Recommend)
-![alt text](./Image/connect_usb.png)
 - RS-232(Recommend)
 ![alt text](./Image/connect_232.png)
+- USB
+![alt text](./Image/connect_usb.png)
 - CAN
 ![alt text](./Image/connect_can.png)
 
 For detailed wiring instructions, please refer to the GitHub repository:
-- Raspberry Pi Power Wiring: https://github.com/FYSETC/Catalyst.K_Kit/tree/main/V1.1/Raspberry%20Pi/Wiring
-- Display Wiring: https://github.com/FYSETC/Catalyst.K_Kit/tree/main/V1.1/Catalyst.K%20Screen/Wiring
+- Raspberry Pi Power Wiring: https://github.com/FYSETC/Catalyst.K_Kit/tree/main/V1.1/RaspberryPi/Wiring
+- RGB LCD Wiring: https://github.com/FYSETC/Catalyst.K_Kit/tree/main/V1.1/Catalyst.K-rLCD/Wiring
+- MIPI LCD Wiring: https://github.com/FYSETC/Catalyst.K_Kit/tree/main/V1.1/Catalyst.K-mLCD/Wiring
 
 # Reference
-[Catalyst.K](https://wiki.fysetc.com/docs/JRDhzc53?preview=1)
+[Catalyst.K-Mainboard](https://wiki.fysetc.com/docs/JRDhzc53?preview=1)
 
-[Catalyst.K ToolHead](https://wiki.fysetc.com/docs/kpMZz8lV?preview=1)
+[Catalyst.K-Tool](https://wiki.fysetc.com/docs/kpMZz8lV?preview=1)
 
 # Product Link
 

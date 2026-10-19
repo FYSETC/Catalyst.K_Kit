@@ -37,7 +37,7 @@ A professional USB cable is included in the kit; connecting the Raspberry Pi to 
 
 ## Firmware Configuration
 ### General Klipper
-#### Serial
+#### Serial(Recommend)
 <p align="left">
   <img src="./Image/k1_klipper_serial.png" width="560" height="120">
 </p>
@@ -54,7 +54,7 @@ A professional USB cable is included in the kit; connecting the Raspberry Pi to 
 
 
 ### K1_Series_Klipper
-#### Serial
+#### Serial(Recommend)
 <p align="left">
   <img src="./Image/k1_serial1.png" width="560" height="160">
 </p>
@@ -100,6 +100,6 @@ When in DFU mode, or after flashing firmware for USB/Serial mode, the green led 
 All peripherals are installed in the same positions as on the original board. With the exception of the shared serial and serial interfaces, the pinout definitions for all other terminals are identical to those of the original motherboard.
 
 # Reference
-[Catalyst.K](https://wiki.fysetc.com/docs/JRDhzc53?preview=1)
+[Catalyst.K-Tool](https://wiki.fysetc.com/docs/kpMZz8lV?preview=1)
 
 # Product Link
