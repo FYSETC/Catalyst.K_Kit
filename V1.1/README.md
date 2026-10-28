@@ -102,6 +102,10 @@ For detailed wiring instructions, please refer to the GitHub repository:
 - RGB LCD Wiring: https://github.com/FYSETC/Catalyst.K_Kit/tree/main/V1.1/Catalyst.K-rLCD/Wiring
 - MIPI LCD Wiring: https://github.com/FYSETC/Catalyst.K_Kit/tree/main/V1.1/Catalyst.K-mLCD/Wiring
 
+# Slice
+- Add an M106 S255 command to the G-code at each layer change; this will turn on the hotend cooling fan, which can help reduce the risk of nozzle clogs.
+- Increase the print bed temperature to reduce warping.
+
 # Reference
 [Catalyst.K-Mainboard](https://wiki.fysetc.com/docs/JRDhzc53?preview=1)
 
