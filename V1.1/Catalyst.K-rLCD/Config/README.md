@@ -115,20 +115,10 @@ Section "InputClass"
 EndSection
 ```
 
-#### 10-monitor.conf
-Create the config file using the following command:
-```
-sudo nano /etc/X11/xorg.conf.d/10-monitor.conf
-```
-Save the following content to the file `10-monitor.conf`:
-```
-
-```
-
 #### 99-vc4.conf
 Create the config file using the following command:
 ```
-sudo nano /etc/X11/xorg.conf.d/10-monitor.conf
+sudo nano /etc/X11/xorg.conf.d/99-vc4.conf
 ```
 Save the following content to the file `99-vc4.conf`:
 ```
