@@ -58,7 +58,7 @@ Section "InputClass"
     Option "Ignore"      "off"
     Option "Mode"        "Absolute"
     Option "SwapAxes"    "off"
-    Option "InvertX"     "off"
+    Option "InvertX"     "on"
     Option "InvertY"     "off"
     Option "TransformationMatrix" "1 0 0 0 1 0 0 0 1"
 EndSection
